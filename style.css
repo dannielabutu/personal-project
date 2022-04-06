@@ -1,0 +1,268 @@
+body {
+    font-family: Lato, sans-serif;
+}
+
+header {
+    background-color: rgba(235, 231, 231, 0.809);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: .5em;
+}
+
+li{
+    flex: 0 0 auto;
+    color: #333;
+    margin: 0 10px;
+}
+
+li:nth-child(1){
+    margin-right: auto;
+}
+
+.about {
+        display: flex;
+        padding-left: 0.5rem;
+        background-image: url("img_4044.png");
+        height: 70vh;
+        max-width: auto;
+        min-width: fit-content;
+        color: #fff;
+}
+
+.about img {
+    flex: 0 0 .9em;
+    height: 20em;
+    width: 10em;
+    margin: .9em;
+    border-radius: .9em;
+}
+
+.sect {
+    @media (min-width: 62em) {
+        display: flex;
+    overflow: hidden;
+    padding-left: .5rem;
+    }
+}
+
+.sect img {
+flex: 0 0 auto;
+height: 30rem;
+width: 17.5rem;
+border-radius: .9rem;
+margin: .9rem;
+margin-top: 3.3rem;
+margin-right: .9rem; 
+margin-left: .9rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product p {
+    font-size: 1.4rem;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+   }
+   
+button.learn-more {
+    width: 12rem;
+    height: auto;
+   }
+   
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+   }
+   
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+   }
+   
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+   }
+   
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+   }
+   
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+   }
+   
+button:hover .circle {
+    width: 100%;
+   }
+   
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+   }
+   
+button:hover .button-text {
+    color: #fff;
+   }
+   
+.merce {
+       text-align: center;
+   }
+
+.beema  {
+    @media (min-width: 62em) {
+        display: flex;
+    overflow: hidden;
+    padding-left: .5rem;
+    }
+}
+
+.beema img {
+    flex: 0 0 auto;
+    height: 30rem;
+    width: 17.5rem;
+    border-radius: .9rem;
+    margin: .9rem;
+    margin-top: 3.3rem;
+    margin-right: .9rem; 
+    margin-left: .9rem;
+    }
+
+.bee {
+      text-align: center;
+    }
+
+.jeep {
+        @media (min-width: 62em) {
+            display: flex;
+        overflow: hidden;
+        padding-left: .5rem;
+        }
+      }
+
+.jeep img {
+        flex: 0 0 auto;
+        height: 30rem;
+        width: 17.5rem;
+        border-radius: .9rem;
+        margin: .9rem;
+        margin-top: 3.3rem;
+        margin-right: .9rem; 
+        margin-left: .9rem;
+        }
+
+.jee {
+    text-align: center;
+    }
+
+
+.tesla {
+        @media (min-width: 62em) {
+            display: flex;
+        overflow: hidden;
+        padding-left: .5rem;
+        }
+    }
+
+.tesla img {
+     flex: 0 0 auto;
+     height: 30rem;
+     width: 17.5rem;
+     border-radius: .9rem;
+     margin: .9rem;
+    margin-top: 3.3rem;
+     margin-right: .9rem; 
+     margin-left: .9rem;
+    }
+
+.tes {
+       text-align: center;
+        }
+
+.lambo {
+    @media (min-width: 62em) {
+             display: flex;
+            overflow: hidden;
+            padding-left: .5rem;
+            }
+        }
+
+.lambo img {
+     flex: 0 0 auto;
+     height: 30rem;
+     width: 17.5rem;
+     border-radius: .9rem;
+     margin: .9rem;
+     margin-top: 3.3rem;
+     margin-right: .9rem; 
+     margin-left: .9rem;
+        }
+    
+.lam {
+     text-align: center;
+    }
+
+.container {
+                display: flex;
+            }
+ 
+footer {
+    display: flex;
+      background-color: rgba(235, 231, 231, 0.809);
+      padding: .5em;
+      justify-content: space-around;
+        }
